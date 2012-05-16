@@ -688,24 +688,18 @@ ul.socialmedia li a {
       padding: 0;
 }
 ul.socialmedia li a img {
-    margin: 2px;    
-    border: 2px solid #eee;
-
     -moz-transition: all 0.15s ease-in-out; 
     -o-transition: all 0.15s ease-in-out; 
     -ms-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
 }
 ul.socialmedia li a:hover img  {
-   border: 2px solid #ff8800;
-
     -moz-transform: scale(1.3);
     -ms-transform: scale(1.3);
     -o-transform: scale(1.3);
     transform: scale(1.3);
 }
 ul.socialmedia li a:focus img  {
-    border: 2px solid #ff8800;
     background:  #ff8800;
 }    
 
@@ -727,7 +721,6 @@ ul.socialmedia li a:focus img  {
     line-height: 0.9em;
     max-width: 200px; 
     max-height: 150px;       
-    border: 2px solid transparent;     
   }
 
   .sticker ul li a {    
@@ -793,27 +786,21 @@ ul.socialmedia li a:focus img  {
    }
    
 
-.sticker li a img {
-    border: 2px solid transparent;
-}
    
 .sticker li a img {
     -moz-transition: all 0.15s ease-in-out;
     -o-transition: all 0.15s ease-in-out;
     -ms-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out; 
-    border: 2px solid transparent;
 }
 
 .sticker li a:hover img {
-   border: 2px solid #ff8800;
     -moz-transform: rotate(5deg) scale(1.3);
     -ms-transform: rotate(5deg) scale(1.3);
     -o-transform: rotate(5deg) scale(1.3);
       transform: rotate(5deg) scale(1.3);
 }
 .sticker li a:focus img {
-    border: 2px solid #ff8800;
     -moz-transform: rotate(5deg) scale(1.3);
     -ms-transform: scale(1.3);
     -o-transform: scale(1.3);
